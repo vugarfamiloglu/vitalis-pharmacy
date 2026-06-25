@@ -1,0 +1,40 @@
+{
+  "name": "vitalis-pharmacy",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Vitalis Pharmacy — a motion-animated pharmacy website, admin panel and POS terminal with a 500+ medicine database, QR scanning and prescription OCR.",
+  "license": "Apache-2.0",
+  "scripts": {
+    "dev": "node server/index.ts",
+    "build": "vite build",
+    "start": "node server/index.ts --prod",
+    "seed": "node server/seed.ts"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chart.js": "^4.4.6",
+    "express": "^4.21.1",
+    "framer-motion": "^11.11.17",
+    "jsqr": "^1.4.0",
+    "qrcode": "^1.5.4",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.28.0",
+    "tesseract.js": "^5.1.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^4.17.21",
+    "@types/node": "^22.9.0",
+    "@types/qrcode": "^1.5.5",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.4",
+    "tailwindcss": "^4.0.0",
+    "typescript": "^5.6.3",
+    "vite": "^6.0.1"
+  }
+}
