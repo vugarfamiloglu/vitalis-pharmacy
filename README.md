@@ -106,6 +106,12 @@ src/
 
 ---
 
+## Screenshots
+
+<img width="1911" height="908" alt="001" src="https://github.com/user-attachments/assets/bf348b68-c05a-4b35-b4fb-0dd3d0d99950" />
+
+<img width="1909" height="910" alt="002" src="https://github.com/user-attachments/assets/8e09718f-8916-4504-8228-e1f707b1de33" />
+
 ## License
 
 Apache License 2.0 — see [LICENSE](LICENSE).
